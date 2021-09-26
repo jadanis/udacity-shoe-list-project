@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_text">LOGIN</string>
+    <string name="sign_up_text">SIGN UP</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="login_title_text">Login to Shoe Store!</string>
+    <string name="welcome_title_text">Welcome to Shoe Store!</string>
+    <string name="welcome_message_text">some text here</string>
+    <string name="to_instr_text"><![CDATA[Instructions >]]></string>
+    <string name="instr_title_text">Shoe Store Instructions</string>
+    <string name="instr_body_text">some instructions</string>
+    <string name="to_shoes_button_text">Show me shoes!</string>
+    <string name="logout_text">Log Out</string>
+    <string name="shoe_detail_title_text">Shoe Details</string>
+    <string name="save_button_text">Save</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="shoe_name_edit_hint">Enter a Shoe Name</string>
+    <string name="shoe_company_edit_hint">Enter Shoe\'s Manufacturer</string>
+    <string name="shoe_size_edit_hint">Enter Shoe\'s Size</string>
+    <string name="shoe_desc_edit_hint">Enter Shoe\'s Description</string>
+    <string name="shoe_name_label_text">Shoe Name</string>
+    <string name="shoe_company_label_text">Company</string>
+    <string name="shoe_size_label_text">Shoe Size</string>
+    <string name="shoe_desc_label_text">Description</string>
+    <string name="shoe_list_title_text">Shoe List</string>
+</resources>

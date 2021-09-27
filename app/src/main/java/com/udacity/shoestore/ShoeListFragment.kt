@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
 import com.udacity.shoestore.models.Shoe
@@ -56,8 +57,12 @@ class ShoeListFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
-                || super.onOptionsItemSelected(item)
+//        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController())
+//                || super.onOptionsItemSelected(item)
+        //as detailed by Mentor help:
+        //https://knowledge.udacity.com/questions/704036
+        findNavController().navigate(R.id.action_shoeListFragment_to_loginFragment)
+        return true
     }
 
     private fun addShoes(){
